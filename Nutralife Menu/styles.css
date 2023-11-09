@@ -1,0 +1,73 @@
+/* Add your CSS styles here to make your app visually appealing */
+body {
+    background-color: grey; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    background-color: #ffffff; /* White container background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#search-results .card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+#favourite-meals .list-group-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#favourite-meals .list-group-item img {
+    margin-right: 10px;
+    max-width: 50px;
+    height: auto;
+}
+
+/* Additional styling for the favorite button */
+.btn-favorite {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-favorite:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Additional styling for the remove button */
+.btn-remove {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-remove:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+/* Home Page specific styles */
+#search-results,
+#search-results .card {
+    background-color: #ffffff; /* White background for search results */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    padding: 10px;
+}
+
+/* Favorites Page specific styles */
+#favourite-meals {
+    background-color: #ffffff; /* White background for favorite meals list */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    padding: 20px;
+}
